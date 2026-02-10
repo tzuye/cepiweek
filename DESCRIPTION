@@ -1,0 +1,20 @@
+Package: cepiweek
+Title: Continuous epidemiological week indexing for time-series analysis 
+Version: 0.0.1
+Authors@R:
+    person("Daniel", "Degina",
+           email = "deginadan@gmail.com",
+           role = c("aut", "cre", "cph"))
+Description: Provides a simple tool to generate a continuous epidemiological week index from date variables in a dataframe. 
+    The generate weeks are sequential and do not reset at calendar year boundaries.
+    They are not ISO 8601 nor MMWR calendar weeks and are intended for epidemiological modeling, 
+    times-series analysis, and nowcasting applications where temporal continuity is required.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    lubridate
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
