@@ -21,6 +21,8 @@ They are intended for time-series analysis and epimeliogical modeling.
 ## Installation =====
 
 ```r
+\# official method :
+install.packages("cepiweek")
 
 \# Depuis GitHub
 
