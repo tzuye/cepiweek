@@ -83,7 +83,6 @@ async def mentionall(event):
         usrtxt = ""
 
 @client.on(events.NewMessage(pattern="^/stop ?(.*)"))
-@authorized_users_only
 async def stop(event):
   admins = []
   async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
